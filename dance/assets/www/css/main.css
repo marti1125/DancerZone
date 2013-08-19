@@ -1,0 +1,47 @@
+body {
+	background-image: url('../img/background_principal.jpg');
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-position:center;
+	font-family: helvetica;
+}
+a {
+	text-decoration: none;
+}
+.logo {
+	width: 100%;
+	height: auto;
+	margin-top: 10%;	
+}
+.btnEntrar{	
+	background-image: linear-gradient(bottom, rgb(63,89,74) 1%, rgb(188,213,156) 82%);
+	background-image: -o-linear-gradient(bottom, rgb(63,89,74) 1%, rgb(188,213,156) 82%);
+	background-image: -moz-linear-gradient(bottom, rgb(63,89,74) 1%, rgb(188,213,156) 82%);
+	background-image: -webkit-linear-gradient(bottom, rgb(63,89,74) 1%, rgb(188,213,156) 82%);
+	background-image: -ms-linear-gradient(bottom, rgb(63,89,74) 1%, rgb(188,213,156) 82%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.01, rgb(63,89,74)),
+		color-stop(0.82, rgb(188,213,156))
+	);
+	box-shadow: 0px 0px 10px 4px #595959;
+	width: 70%;
+	margin-left: 15%;
+	line-height: 6px;
+	height: 30px;
+	color: white;
+	font-weight: bold;
+	text-shadow: -2px 1px #454545;	
+}
+.footer {
+	text-align: center;
+}
+.twitter, .facebook{
+	width: 13%;	
+}
+.copy {
+	width: 30%;
+}
