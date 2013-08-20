@@ -14,19 +14,7 @@ a {
 	margin-top: 10%;	
 }
 .btnEntrar{	
-	background-image: linear-gradient(bottom, rgb(63,89,74) 1%, rgb(188,213,156) 82%);
-	background-image: -o-linear-gradient(bottom, rgb(63,89,74) 1%, rgb(188,213,156) 82%);
-	background-image: -moz-linear-gradient(bottom, rgb(63,89,74) 1%, rgb(188,213,156) 82%);
-	background-image: -webkit-linear-gradient(bottom, rgb(63,89,74) 1%, rgb(188,213,156) 82%);
-	background-image: -ms-linear-gradient(bottom, rgb(63,89,74) 1%, rgb(188,213,156) 82%);
-
-	background-image: -webkit-gradient(
-		linear,
-		left bottom,
-		left top,
-		color-stop(0.01, rgb(63,89,74)),
-		color-stop(0.82, rgb(188,213,156))
-	);
+	background-image: url('../img/btn.png');
 	box-shadow: 0px 0px 10px 4px #595959;
 	width: 70%;
 	margin-left: 15%;
